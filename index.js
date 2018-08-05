@@ -7,7 +7,7 @@ function nestedTarget () {
   return tar;
 }
 function increaseRankBy (n) {
-  
+  parseInt()
 }
 function deepestChild() {
   
