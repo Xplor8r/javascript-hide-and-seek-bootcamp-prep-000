@@ -6,3 +6,6 @@ function nestedTarget () {
   var tar = document.getElementsByTagName('div') [4];
   return tar;
 }
+function deepestChild() {
+  
+}
