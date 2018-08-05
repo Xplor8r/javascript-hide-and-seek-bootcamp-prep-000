@@ -1,1 +1,8 @@
-
+function getFirstSelector(selector) {
+  var sel = document.querySelector(selector);
+  return sel;
+}
+function nestedTarget () {
+  var tar = document.getElementsByTagName('div') [3];
+  return tar;
+}
