@@ -3,6 +3,6 @@ function getFirstSelector(selector) {
   return sel;
 }
 function nestedTarget () {
-  var tar = document.getElementsByTagName('div') [3];
+  var tar = document.getElementsByTagName('div') [4];
   return tar;
 }
