@@ -16,5 +16,5 @@ function deepestChild() {
   var deep = document.getElementById('grand-node').querySelectorAll('div#grand-node')
   for (let i = 0; i < deep.length; i++) {
   deep[i].innerHTML = (i + 1).toString()
-}
+  }
 }
