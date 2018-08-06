@@ -6,10 +6,11 @@ function nestedTarget () {
   var tar = document.getElementsByTagName('div') [4];
   return tar;
 }
-function increaseRankBy (n) {
-  var parse = parseInt(n +1);
-  var rank = document.querySelector('ul.ranked li');
-  return rank(parse);
+function increaseRankBy(n) {
+  var Rank=document.getElementById("app").querySelectorAll("ul.ranked-list li");
+  for(let i=0;i<lis.length;i++) {
+    lis[i].innerHTML=parseInt(lis[i].innerHTML)+n;
+  }
 }
 function deepestChild() {
   
