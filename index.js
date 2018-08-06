@@ -8,7 +8,7 @@ function nestedTarget () {
 }
 function increaseRankBy (n) {
   var parse = parseInt(n +1);
-  var rank = document.querySelector('')
+  var rank = document.querySelector('ul.ranked')
 }
 function deepestChild() {
   
