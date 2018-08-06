@@ -16,7 +16,7 @@ function deepestChild() {
   var deep = document.getElementById('app').querySelectorAll('div#grand-node div');
   var Chi;
   for (let i = 0; i < deep.length -1; i++) {
-  var chi = deep[i].qu
+  var chi = deep[i].querySelector('div')
   }
   return d
 }
