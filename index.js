@@ -18,5 +18,4 @@ function deepestChild() {
   var chi = deep[i].querySelector('div');
     return chi;
   }
-
 }
