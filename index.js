@@ -18,5 +18,5 @@ function deepestChild() {
   for (let i = 0; i < deep.length -1; i++) {
   var chi = deep[i].querySelector('div')
   }
-  return d
+  return chi;
 }
